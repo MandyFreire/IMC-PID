@@ -6,6 +6,7 @@ Visão Geral
 Este projeto demonstra o uso do controlador IMC-PID para melhorar a estabilidade e desempenho em sistemas com tempo morto. Comparamos o IMC-PID com o PID clássico através de simulações e implementações reais.
 
 Estrutura do Repositório
+
 notebooks/: Contém Jupyter Notebooks com simulações e comparações.
 
 src/: Código-fonte em Python para modelagem e controle.
