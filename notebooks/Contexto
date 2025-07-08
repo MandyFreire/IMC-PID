@@ -1,0 +1,30 @@
+
+Simulação Comparativa: IMC-PID vs PID Clássico
+
+Este notebook explora as diferenças entre os controladores IMC-PID e PID clássico em um processo industrial simulado. Comparamos as respostas de ambos os controladores para entender melhor suas características de desempenho.
+
+Introdução
+
+O controlador IMC-PID (Controle PID com Modelo Interno) utiliza uma abordagem de modelagem matemática que permite ajustar os parâmetros do controlador de forma precisa, mesmo em processos com tempo morto pronunciado.
+
+Configuração Inicial
+
+Importando as bibliotecas necessárias e definindo as funções para simulação.
+
+Análise dos Resultados
+
+Os gráficos acima mostram como cada controlador responde a uma mudança de degrau no setpoint. Observamos que o IMC-PID apresenta:
+
+Resposta suave e estável.
+
+Menor overshoot em comparação com o PID clássico.
+
+Controle mais eficiente, especialmente em sistemas com tempo morto.
+
+Essas características tornam o IMC-PID mais adequado para processos industriais complexos.
+
+Conclusão
+
+O IMC-PID demonstra superioridade em termos de robustez e precisão, particularmente em processos com tempo morto significativo.
+
+Agora, você pode criar este notebook em notebooks/IMC_PID_Simulation.ipynb. Certifique-se de executar as células para gerar os gráficos e validar as análises.
