@@ -1,7 +1,9 @@
 Configuração do PLC Siemens para IMC-PID
+
 	Este guia fornece instruções para implementar um controlador IMC-PID em um PLC Siemens usando o TIA Portal. O exemplo foi desenvolvido para os controladores S7-1200/S7-1500.
 
 Passos para Implementação
+
 	1. Criar um Novo Projeto no TIA Portal
 	Abra o TIA Portal e crie um novo projeto.
 	Selecione o controlador apropriado (S7-1200 ou S7-1500) e configure a rede.
@@ -17,18 +19,25 @@ Passos para Implementação
 	5. Simulação e Validação
 	Utilize a funcionalidade de simulação do TIA Portal para testar e validar a configuração antes da implementação no hardware real.
 	Ajuste os parâmetros conforme necessário para otimizar o desempenho no ambiente simulado.
+ 
 Considerações de Segurança
+
 	Sempre realize testes em um ambiente simulado antes de aplicar no ambiente de produção.
 	Certifique-se de que todas as normas de segurança relevantes sejam seguidas durante a implementação.
+ 
 Recursos Adicionais
+
 	Consulte a documentação oficial da Siemens para obter instruções detalhadas sobre o uso de blocos PID no TIA Portal.
 	Instruções de Uso
 
 Código SCL:
+
 	IMC_PID_Siemens.st: Contém o exemplo de configuração do controlador IMC-PID que deve ser integrado ao TIA Portal.
 
 Arquivo README.md:
+
 	Fornece um guia passo a passo para configurar o PLC Siemens, definir parâmetros, simular e validar a implementação.
 
 Precauções:
+
 	Garantir que todas as configurações sejam testadas em ambiente simulado para evitar impactos em operações ao vivo.
