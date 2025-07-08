@@ -1,0 +1,19 @@
+// Exemplo de implementação de um controlador IMC-PID em SCL
+
+// Definição dos parâmetros do controlador
+Kp_IMC := 1.0;
+Ti_IMC := 50.0;
+Td_IMC := 16.7;
+
+// Configuração do bloco PID
+Temp_PID.Kp := Kp_IMC;
+Temp_PID.Ti := Ti_IMC;
+Temp_PID.Td := Td_IMC;
+Temp_PID.MANUAL := FALSE;
+Temp_PID.PV_IN := Temperatura_Atual;
+Temp_PID.SP_INT := Temperatura_Desejada;
+Temp_PID.QM := 100.0;
+Temp_PID.QN := 0.0;
+
+// Execução do bloco PID
+Temp_PID(); // Chamada ao bloco funcional
