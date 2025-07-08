@@ -1,4 +1,7 @@
-# IMC-PID
+# IMC-PID 
+
+ARTIGO - 
+https://www.linkedin.com/posts/amandafreireengineer_automaaexaetoindustrial-engenharia-pid-activity-7348404273652686849-sKHb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA2vWEoBHxNWykrPmzwhZF6rigVPIhWOepw
 
 Implementação prática do controlador IMC-PID em processos industriais. Este repositório contém simulações em Python, exemplos de implementação em PLC Siemens, e documentação adicional.
 
