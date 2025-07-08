@@ -14,5 +14,3 @@ src/: Código-fonte em Python para modelagem e controle.
 siemens/: Código e instruções para configurar PLC Siemens.
 
 docs/: Documentação adicional e referências.
-
-data/: Conjuntos de dados de exemplo (se aplicável).
